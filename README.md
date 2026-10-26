@@ -1,66 +1,45 @@
-Calculadora VueJS
-Projeto desenvolvido durante o curso de Front-End da EBAC
-📌 Sobre o Projeto
+# Calculadora — Vue e Vite
 
-Este projeto foi desenvolvido como atividade prática do curso Front-End da EBAC.
-A proposta era criar uma calculadora funcional utilizando VueJS, aplicando conceitos fundamentais como:
+Projeto educacional desenvolvido no curso de Front-End da EBAC.
+A aplicação está em **calculadora-main/curso/** e utiliza Vue 3 com Vite,
+conforme o package.json. Não é uma aplicação carregada somente por CDN.
 
-Estruturação do layout
+## Executar
 
-Manipulação de dados reativos
+Requisitos: Node.js e npm compatíveis com as versões do package.json.
 
-Componentização simples
+```bash
+git clone https://github.com/Gabrielpalhanogomes2803/calculadora.git
+cd calculadora/calculadora-main/curso
+npm ci
+npm run dev
+```
 
-Interatividade através do Vue
+Abrir o endereço informado pelo Vite no terminal.
+Se npm ci acusar divergência entre manifest e lock, revisar ambos;
+não apagar o lock automaticamente.
 
-O principal objetivo é demonstrar o uso do VueJS em um projeto real e simples, porém funcional e bem estruturado.
+## Build
 
-🧩 Funcionalidades
+```bash
+npm run build
+npm run preview
+```
 
-Soma
+preview serve apenas para conferir o build localmente.
 
-Subtração
+## Código
 
-Multiplicação
+- [package.json](calculadora-main/curso/package.json): dependências e scripts.
+- [App.vue](calculadora-main/curso/src/App.vue): componente principal.
+- [main.js](calculadora-main/curso/src/main.js): entrada da aplicação.
 
-Divisão
+![Interface da calculadora](https://github.com/user-attachments/assets/85e9ad04-ec1f-4c0a-85d5-baf74dec5143)
 
-Limpar operação
+## Validação e limites
 
-Interface simples e intuitiva
+Instruções alinhadas à estrutura atual do repositório.
+Instalação, build e interface não foram executados nesta revisão documental.
+Dependências antigas precisam de avaliação separada antes de atualização.
 
-Código organizado utilizando VueJS
-
-🛠 Tecnologias Utilizadas
-Front-End
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Vue.js
-
-🚀 Como Executar o Projeto
-1. Clonar o repositório
-git clone https://github.com/gabrielgomes28/calculadora.git
-
-2. Abrir o projeto
-
-Entre na pasta do projeto:
-
-cd calculadora
-
-3. Executar
-
-Basta abrir o arquivo index.html no navegador.
-
-Não é necessário instalar dependências — o Vue é carregado via CDN.
-
-<img width="543" height="514" alt="Captura de Tela 2023-05-08 às 10 44 32 1" src="https://github.com/user-attachments/assets/85e9ad04-ec1f-4c0a-85d5-baf74dec5143" />
-
-
-👤 Autor
-
-Gabriel Palhano Gomes
+Autor: Gabriel Palhano Gomes
